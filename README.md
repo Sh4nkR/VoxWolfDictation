@@ -1,11 +1,12 @@
 # VoxWolf Dictation
 
-VoxWolf is a native Android prototype that lets you dictate directly into whatever text field is currently focused, using an accessibility service and the device's speech recognizer.
+VoxWolf is a native Android prototype that lets you dictate directly into whatever text field is currently focused, using an accessibility service and fully on-device speech recognition.
 
 ## Features
 
+- On-device transcription powered by [whisper.cpp](https://github.com/ggml-org/whisper.cpp) — no network connection required, works even in airplane mode
 - Accessibility service with a floating control for starting and stopping dictation
-- Speech recognition with a foreground listening notification
+- Foreground listening notification while dictation is active
 - Cursor/selection-aware text insertion into the focused editable field
 - Password-field blocking, so dictation never activates on secure inputs
 - Local cleanup pass for spoken punctuation before text is inserted
