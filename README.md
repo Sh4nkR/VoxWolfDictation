@@ -4,7 +4,7 @@ VoxWolf is a native Android prototype that lets you dictate directly into whatev
 
 ## Features
 
-- On-device transcription powered by [whisper.cpp](https://github.com/ggml-org/whisper.cpp) — no network connection required, works even in airplane mode
+- Continuous microphone capture streamed to an on-device [whisper.cpp](https://github.com/ggml-org/whisper.cpp) engine for transcription — no network connection required, works even in airplane mode
 - Accessibility service with a floating control for starting and stopping dictation
 - Foreground listening notification while dictation is active
 - Cursor/selection-aware text insertion into the focused editable field
